@@ -1,0 +1,2422 @@
+[
+  {
+    "product": [
+      {
+        "id": "9a631bba-f056-484d-9fba-15b663819b84",
+        "name": "Smartphone",
+        "description": "A powerful and sleek device",
+        "quantity": 79217,
+        "status": "Available",
+        "created_at": "2023-08-24T11:00:58.147Z",
+        "updated_at": "2023-08-24T07:51:40.017Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "037249f0-b93e-4552-8032-c61a42af92b1",
+        "name": "Laptop",
+        "description": "Perfect for work and play",
+        "quantity": 68190,
+        "status": "Out of stock",
+        "created_at": "2023-08-24T11:16:58.109Z",
+        "updated_at": "2023-08-24T00:22:06.120Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "73feb4e6-57d9-4935-8a99-63ecc448f35a",
+        "name": "Dress",
+        "description": "Elegant and fashionable",
+        "quantity": 36524,
+        "status": "Coming soon",
+        "created_at": "2023-08-23T14:14:29.422Z",
+        "updated_at": "2023-08-24T05:43:52.310Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "32fa2fc3-b6ec-4722-b839-a35373babb14",
+        "name": "Consulting Service",
+        "description": "Expert advice for business growth",
+        "quantity": 52783,
+        "status": "Limited edition",
+        "created_at": "2023-08-23T14:59:20.301Z",
+        "updated_at": "2023-08-23T18:23:44.547Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "cf4bb9d4-a691-45e7-ba7b-2c3bcd4d6546",
+        "name": "Cake",
+        "description": "Delicious and indulgent",
+        "quantity": 99212,
+        "status": "On sale",
+        "created_at": "2023-08-23T16:57:28.435Z",
+        "updated_at": "2023-08-24T03:21:56.934Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "e8b61033-b9f0-43a2-8678-894346e9751f",
+        "status": "Active",
+        "quantity": 30804,
+        "created_at": "2023-08-23T19:26:32.212Z",
+        "updated_at": "2023-08-24T02:33:31.463Z",
+        "business_id": "main_entity_pk",
+        "product_id": "73feb4e6-57d9-4935-8a99-63ecc448f35a"
+      },
+      {
+        "id": "84967168-bd4b-48fb-9ef9-fb914b76c34a",
+        "status": "Pending",
+        "quantity": 86648,
+        "created_at": "2023-08-24T10:13:44.918Z",
+        "updated_at": "2023-08-23T13:42:31.417Z",
+        "business_id": "main_entity_pk",
+        "product_id": "9a631bba-f056-484d-9fba-15b663819b84"
+      },
+      {
+        "id": "6b220bc5-fd52-4ebb-8d60-f5e2ef1c4b43",
+        "status": "Completed",
+        "quantity": 31984,
+        "created_at": "2023-08-23T16:37:20.099Z",
+        "updated_at": "2023-08-24T09:37:31.989Z",
+        "business_id": "main_entity_pk",
+        "product_id": "cf4bb9d4-a691-45e7-ba7b-2c3bcd4d6546"
+      },
+      {
+        "id": "75aa7a80-dddc-436f-a36d-54037daf5f8e",
+        "status": "Delayed",
+        "quantity": 54248,
+        "created_at": "2023-08-23T18:53:59.948Z",
+        "updated_at": "2023-08-24T09:36:15.937Z",
+        "business_id": "main_entity_pk",
+        "product_id": "32fa2fc3-b6ec-4722-b839-a35373babb14"
+      },
+      {
+        "id": "cf2502bb-b136-4ef9-88a5-a183c3a0abbc",
+        "status": "In progress",
+        "quantity": 56652,
+        "created_at": "2023-08-24T11:53:36.429Z",
+        "updated_at": "2023-08-24T11:22:49.665Z",
+        "business_id": "main_entity_pk",
+        "product_id": "32fa2fc3-b6ec-4722-b839-a35373babb14"
+      }
+    ],
+    "order": [
+      {
+        "id": "7318a3f1-ab9d-4257-828d-2b32b19644fc",
+        "status": "Processing",
+        "quantity": 65209,
+        "created_at": "2023-08-23T16:14:34.036Z",
+        "updated_at": "2023-08-24T11:19:14.155Z",
+        "product_id": "037249f0-b93e-4552-8032-c61a42af92b1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df791717-403f-45c2-8fea-5216306dcee2",
+        "status": "Shipped",
+        "quantity": 28283,
+        "created_at": "2023-08-23T20:03:42.561Z",
+        "updated_at": "2023-08-23T14:57:49.382Z",
+        "product_id": "cf4bb9d4-a691-45e7-ba7b-2c3bcd4d6546",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2e4dfc3-c4ff-4d78-a049-07b1c62e1237",
+        "status": "Delivered",
+        "quantity": 80003,
+        "created_at": "2023-08-23T18:03:22.754Z",
+        "updated_at": "2023-08-24T05:03:17.019Z",
+        "product_id": "9a631bba-f056-484d-9fba-15b663819b84",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "455fae55-7a04-4093-91e2-1423599b135c",
+        "status": "Cancelled",
+        "quantity": 28853,
+        "created_at": "2023-08-24T04:53:16.331Z",
+        "updated_at": "2023-08-23T16:53:28.660Z",
+        "product_id": "9a631bba-f056-484d-9fba-15b663819b84",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46e4a0bc-ab51-4b86-9027-984ee251cf9c",
+        "status": "On hold",
+        "quantity": 37844,
+        "created_at": "2023-08-23T15:34:34.822Z",
+        "updated_at": "2023-08-23T22:42:58.113Z",
+        "product_id": "73feb4e6-57d9-4935-8a99-63ecc448f35a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "9a2c9ae0-95cc-4e2d-82e7-995cd50355d7",
+        "quantity": 67558,
+        "status": "In stock",
+        "created_at": "2023-08-23T18:13:55.458Z",
+        "updated_at": "2023-08-24T02:24:21.089Z",
+        "business_id": "main_entity_pk",
+        "product_id": "037249f0-b93e-4552-8032-c61a42af92b1"
+      },
+      {
+        "id": "4d5e73fa-fa86-48f9-9e89-f55b04999ce8",
+        "quantity": 58065,
+        "status": "Low stock",
+        "created_at": "2023-08-23T14:38:15.949Z",
+        "updated_at": "2023-08-23T16:32:12.336Z",
+        "business_id": "main_entity_pk",
+        "product_id": "037249f0-b93e-4552-8032-c61a42af92b1"
+      },
+      {
+        "id": "84aaf6b9-3232-4799-b831-b749fa9692ee",
+        "quantity": 13916,
+        "status": "Out of stock",
+        "created_at": "2023-08-23T14:47:06.974Z",
+        "updated_at": "2023-08-24T03:13:01.666Z",
+        "business_id": "main_entity_pk",
+        "product_id": "73feb4e6-57d9-4935-8a99-63ecc448f35a"
+      },
+      {
+        "id": "fd4eaf3f-3e5a-472a-802e-8bbadc46665f",
+        "quantity": 83599,
+        "status": "Reserved",
+        "created_at": "2023-08-24T03:10:48.670Z",
+        "updated_at": "2023-08-24T04:46:26.329Z",
+        "business_id": "main_entity_pk",
+        "product_id": "32fa2fc3-b6ec-4722-b839-a35373babb14"
+      },
+      {
+        "id": "52bcdf36-e414-474e-8458-d06ba6710407",
+        "quantity": 17664,
+        "status": "Available",
+        "created_at": "2023-08-24T07:41:59.027Z",
+        "updated_at": "2023-08-24T06:00:38.276Z",
+        "business_id": "main_entity_pk",
+        "product_id": "cf4bb9d4-a691-45e7-ba7b-2c3bcd4d6546"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6b718ead-d30b-41ff-a030-b9084f559019",
+        "email": "Clark_Farrell66@gmail.com",
+        "firstName": "Catalina",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1060.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e500362b-664e-49a2-84ec-b194b96dcabc",
+        "email": "Shanny94@gmail.com",
+        "firstName": "Dexter",
+        "lastName": "Bosco-Gorczany",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47145111",
+        "tenantId": null
+      },
+      {
+        "reference": "61da43b0-0b2f-4fd7-8e88-46cb9870f1f1",
+        "email": "Toni46@gmail.com",
+        "firstName": "Deanna",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/541.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "76db0daa-fe62-40be-a451-ef81d2e95aa6",
+        "email": "Ulices.Bradtke21@yahoo.com",
+        "firstName": "Natalia",
+        "lastName": "Shields",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/173.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b4caf497-7174-4def-a4d6-b6665621c615",
+        "email": "Junior30@hotmail.com",
+        "firstName": "Mortimer",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/50.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "369ab4e9-848d-4e10-af41-aef16b2ce705",
+        "name": "Smartphone",
+        "description": "A cutting-edge device with advanced features",
+        "quantity": 27321,
+        "status": "Available",
+        "created_at": "2023-08-24T08:58:29.279Z",
+        "updated_at": "2023-08-24T03:19:19.957Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "eac6dd2c-2f4d-42ab-a02c-3f69ee2fd8ed",
+        "name": "Designer Dress",
+        "description": "A stylish and elegant attire for special occasions",
+        "quantity": 60486,
+        "status": "Out of Stock",
+        "created_at": "2023-08-24T12:06:25.015Z",
+        "updated_at": "2023-08-23T22:20:43.619Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "b4896144-64e1-4ee9-99c8-60ee7e8cc339",
+        "name": "Investment Plan",
+        "description": "A secure and profitable financial option",
+        "quantity": 62281,
+        "status": "Limited Edition",
+        "created_at": "2023-08-23T17:37:58.889Z",
+        "updated_at": "2023-08-24T01:01:34.112Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "7a335b82-3ea1-4d53-a68b-230c06c4a9e0",
+        "name": "Gourmet Burger",
+        "description": "A delicious and satisfying meal for food enthusiasts",
+        "quantity": 41206,
+        "status": "Pre-order",
+        "created_at": "2023-08-24T04:53:34.135Z",
+        "updated_at": "2023-08-23T15:35:03.413Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "f6564068-4fb3-41ad-9164-79cd08c32dda",
+        "name": "Business Strategy",
+        "description": "A comprehensive plan to achieve organizational goals",
+        "quantity": 26010,
+        "status": "On Sale",
+        "created_at": "2023-08-23T17:15:22.221Z",
+        "updated_at": "2023-08-24T02:11:57.446Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "37207553-813a-4779-9099-87dedcfe6106",
+        "status": "Active",
+        "quantity": 55163,
+        "created_at": "2023-08-24T12:01:26.397Z",
+        "updated_at": "2023-08-24T12:15:47.752Z",
+        "business_id": "main_entity_pk",
+        "product_id": "b4896144-64e1-4ee9-99c8-60ee7e8cc339"
+      },
+      {
+        "id": "09eed970-b9b8-4689-8b42-a6cdb7ab83f5",
+        "status": "Under Maintenance",
+        "quantity": 56790,
+        "created_at": "2023-08-24T02:29:38.722Z",
+        "updated_at": "2023-08-23T14:11:49.177Z",
+        "business_id": "main_entity_pk",
+        "product_id": "369ab4e9-848d-4e10-af41-aef16b2ce705"
+      },
+      {
+        "id": "79143d17-2deb-4b41-a6e0-0a349518e34b",
+        "status": "Delayed",
+        "quantity": 66663,
+        "created_at": "2023-08-23T15:13:13.682Z",
+        "updated_at": "2023-08-24T01:28:46.312Z",
+        "business_id": "main_entity_pk",
+        "product_id": "eac6dd2c-2f4d-42ab-a02c-3f69ee2fd8ed"
+      },
+      {
+        "id": "ca8da1ee-9e46-45f1-afab-a2707645e51a",
+        "status": "Optimized",
+        "quantity": 71151,
+        "created_at": "2023-08-23T20:32:48.243Z",
+        "updated_at": "2023-08-23T13:52:48.344Z",
+        "business_id": "main_entity_pk",
+        "product_id": "b4896144-64e1-4ee9-99c8-60ee7e8cc339"
+      },
+      {
+        "id": "6f037877-0123-4923-ba90-c3265cdf0398",
+        "status": "Streamlined",
+        "quantity": 96486,
+        "created_at": "2023-08-24T06:46:11.370Z",
+        "updated_at": "2023-08-24T00:57:48.403Z",
+        "business_id": "main_entity_pk",
+        "product_id": "f6564068-4fb3-41ad-9164-79cd08c32dda"
+      }
+    ],
+    "order": [
+      {
+        "id": "8ee1e291-54f9-41c0-813d-81a0bf08deec",
+        "status": "Pending",
+        "quantity": 27646,
+        "created_at": "2023-08-24T02:46:14.524Z",
+        "updated_at": "2023-08-24T10:28:11.671Z",
+        "product_id": "369ab4e9-848d-4e10-af41-aef16b2ce705",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6223d20-c9e0-48ae-8313-b745f818c1e0",
+        "status": "Processing",
+        "quantity": 79756,
+        "created_at": "2023-08-23T16:45:39.828Z",
+        "updated_at": "2023-08-23T13:12:27.002Z",
+        "product_id": "369ab4e9-848d-4e10-af41-aef16b2ce705",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10ee49b1-58b5-47b8-9152-f191365fadac",
+        "status": "Shipped",
+        "quantity": 838,
+        "created_at": "2023-08-24T10:10:30.381Z",
+        "updated_at": "2023-08-24T03:15:01.260Z",
+        "product_id": "eac6dd2c-2f4d-42ab-a02c-3f69ee2fd8ed",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f3f2b6a-2714-48e6-ae12-b8cb95c2375d",
+        "status": "Delivered",
+        "quantity": 61154,
+        "created_at": "2023-08-24T12:15:05.029Z",
+        "updated_at": "2023-08-24T00:57:30.562Z",
+        "product_id": "f6564068-4fb3-41ad-9164-79cd08c32dda",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "175f2a4a-0bd8-433a-9ba6-8395ace54071",
+        "status": "Cancelled",
+        "quantity": 43481,
+        "created_at": "2023-08-23T18:58:26.911Z",
+        "updated_at": "2023-08-24T12:33:55.609Z",
+        "product_id": "eac6dd2c-2f4d-42ab-a02c-3f69ee2fd8ed",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "a52a50ad-ce90-406a-be4c-269558b06ee3",
+        "quantity": 6292,
+        "status": "In Stock",
+        "created_at": "2023-08-24T11:11:42.145Z",
+        "updated_at": "2023-08-23T18:17:44.149Z",
+        "business_id": "main_entity_pk",
+        "product_id": "f6564068-4fb3-41ad-9164-79cd08c32dda"
+      },
+      {
+        "id": "147248a1-aec1-46eb-943f-2c465c5b0b7c",
+        "quantity": 92553,
+        "status": "Out of Stock",
+        "created_at": "2023-08-23T22:05:22.565Z",
+        "updated_at": "2023-08-23T18:40:15.425Z",
+        "business_id": "main_entity_pk",
+        "product_id": "eac6dd2c-2f4d-42ab-a02c-3f69ee2fd8ed"
+      },
+      {
+        "id": "3abac112-ae2b-48c1-9e6f-c5ab08d65a18",
+        "quantity": 61338,
+        "status": "Low Stock",
+        "created_at": "2023-08-24T01:17:49.783Z",
+        "updated_at": "2023-08-23T15:18:44.406Z",
+        "business_id": "main_entity_pk",
+        "product_id": "b4896144-64e1-4ee9-99c8-60ee7e8cc339"
+      },
+      {
+        "id": "7e6bcacf-8e17-4e81-bca1-bc3a854100c1",
+        "quantity": 10000,
+        "status": "Fully Stocked",
+        "created_at": "2023-08-24T10:19:26.695Z",
+        "updated_at": "2023-08-23T22:49:25.100Z",
+        "business_id": "main_entity_pk",
+        "product_id": "b4896144-64e1-4ee9-99c8-60ee7e8cc339"
+      },
+      {
+        "id": "c7aea258-eb00-4d08-b20d-0acb636b08dd",
+        "quantity": 45204,
+        "status": "Replenishing",
+        "created_at": "2023-08-24T07:16:08.208Z",
+        "updated_at": "2023-08-23T18:17:12.999Z",
+        "business_id": "main_entity_pk",
+        "product_id": "eac6dd2c-2f4d-42ab-a02c-3f69ee2fd8ed"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5f3ab034-9334-4033-8869-2d61bccf4fc0",
+        "email": "Madge88@yahoo.com",
+        "firstName": "Krista",
+        "lastName": "Kunde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77865066",
+        "tenantId": null
+      },
+      {
+        "reference": "469bc95f-66de-475c-b9c3-327545a6dd72",
+        "email": "Emmett1@yahoo.com",
+        "firstName": "Phoebe",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/375.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a615410f-1c8d-4c29-940f-967a80bb25dd",
+        "email": "Aliyah.Schoen@gmail.com",
+        "firstName": "Adah",
+        "lastName": "Hahn-Kutch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/641.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6bed1f74-0c4c-4522-b0ab-9155b5f3220b",
+        "email": "Sim.Jones@gmail.com",
+        "firstName": "Joyce",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/768.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8d2c6dc2-1925-40e6-a1a2-67ed9938ad94",
+        "email": "Adele.King47@yahoo.com",
+        "firstName": "Kacie",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/88.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "26c9272e-8697-4a8b-a775-cd7fe2a38763",
+        "name": "Smartphone",
+        "description": "High-performance device with advanced features",
+        "quantity": 96337,
+        "status": "Available",
+        "created_at": "2023-08-24T08:08:18.360Z",
+        "updated_at": "2023-08-23T13:25:11.439Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "fb455e60-b2d0-48a4-a8f4-76784b6e4538",
+        "name": "Laptop",
+        "description": "Sleek and lightweight design for easy portability",
+        "quantity": 81624,
+        "status": "Out of stock",
+        "created_at": "2023-08-24T00:02:28.065Z",
+        "updated_at": "2023-08-24T07:39:23.735Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "31e1596c-e295-43b1-ae8b-406ee7df6647",
+        "name": "Smart Watch",
+        "description": "Track your fitness and receive notifications on the go",
+        "quantity": 70598,
+        "status": "Pre-order",
+        "created_at": "2023-08-24T05:52:19.304Z",
+        "updated_at": "2023-08-23T17:06:16.203Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "073454d0-61be-4dde-b341-b800bb6e8e9f",
+        "name": "Headphones",
+        "description": "Immersive sound quality for an enhanced audio experience",
+        "quantity": 92772,
+        "status": "Limited stock",
+        "created_at": "2023-08-23T23:44:51.593Z",
+        "updated_at": "2023-08-23T12:58:24.394Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "3f8d8289-5c6a-4201-975d-207e2b676645",
+        "name": "Camera",
+        "description": "Capture stunning photos and videos",
+        "quantity": 11085,
+        "status": "Coming soon",
+        "created_at": "2023-08-23T13:02:26.058Z",
+        "updated_at": "2023-08-23T21:00:21.882Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "cb862510-7077-48f0-83c8-bfc954d4823e",
+        "status": "Active",
+        "quantity": 87066,
+        "created_at": "2023-08-23T21:00:02.042Z",
+        "updated_at": "2023-08-24T02:09:26.922Z",
+        "business_id": "main_entity_pk",
+        "product_id": "fb455e60-b2d0-48a4-a8f4-76784b6e4538"
+      },
+      {
+        "id": "f55d46ae-b95c-4cc1-8975-0e75d941413e",
+        "status": "On hold",
+        "quantity": 13208,
+        "created_at": "2023-08-24T06:40:09.932Z",
+        "updated_at": "2023-08-23T19:18:18.644Z",
+        "business_id": "main_entity_pk",
+        "product_id": "26c9272e-8697-4a8b-a775-cd7fe2a38763"
+      },
+      {
+        "id": "dc5d10fc-95c1-418b-8047-6744d1c09217",
+        "status": "In progress",
+        "quantity": 23192,
+        "created_at": "2023-08-24T09:23:50.002Z",
+        "updated_at": "2023-08-24T11:33:14.641Z",
+        "business_id": "main_entity_pk",
+        "product_id": "26c9272e-8697-4a8b-a775-cd7fe2a38763"
+      },
+      {
+        "id": "53288f0a-8670-44a6-abbb-ab1d1bbb593a",
+        "status": "Delayed",
+        "quantity": 13376,
+        "created_at": "2023-08-23T21:58:10.234Z",
+        "updated_at": "2023-08-24T07:44:44.357Z",
+        "business_id": "main_entity_pk",
+        "product_id": "3f8d8289-5c6a-4201-975d-207e2b676645"
+      },
+      {
+        "id": "03621e7b-a9eb-4ebf-b2c3-96b544c9e9d7",
+        "status": "Completed",
+        "quantity": 93252,
+        "created_at": "2023-08-24T10:38:04.997Z",
+        "updated_at": "2023-08-23T14:23:35.493Z",
+        "business_id": "main_entity_pk",
+        "product_id": "fb455e60-b2d0-48a4-a8f4-76784b6e4538"
+      }
+    ],
+    "order": [
+      {
+        "id": "a7772b3d-4e21-49e4-8d1c-49ae3c1f80ef",
+        "status": "Pending",
+        "quantity": 30574,
+        "created_at": "2023-08-23T14:26:39.183Z",
+        "updated_at": "2023-08-23T20:14:57.128Z",
+        "product_id": "26c9272e-8697-4a8b-a775-cd7fe2a38763",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84085c70-e18c-47c6-b3fa-fb3197dfb0fe",
+        "status": "Processing",
+        "quantity": 18093,
+        "created_at": "2023-08-23T13:52:04.341Z",
+        "updated_at": "2023-08-23T17:06:51.180Z",
+        "product_id": "fb455e60-b2d0-48a4-a8f4-76784b6e4538",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e0aa7c7-ab61-4ea5-99ca-06268c8c5f74",
+        "status": "Shipped",
+        "quantity": 34784,
+        "created_at": "2023-08-24T08:49:43.959Z",
+        "updated_at": "2023-08-23T22:52:54.441Z",
+        "product_id": "26c9272e-8697-4a8b-a775-cd7fe2a38763",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5759aae-d4d0-46d3-b504-4fd1d168f28e",
+        "status": "Delivered",
+        "quantity": 16439,
+        "created_at": "2023-08-23T14:48:37.480Z",
+        "updated_at": "2023-08-24T07:07:33.052Z",
+        "product_id": "073454d0-61be-4dde-b341-b800bb6e8e9f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25d4b45e-b572-4c4f-9843-25f2bdd09c1a",
+        "status": "Cancelled",
+        "quantity": 71146,
+        "created_at": "2023-08-23T21:35:07.481Z",
+        "updated_at": "2023-08-23T13:38:04.741Z",
+        "product_id": "fb455e60-b2d0-48a4-a8f4-76784b6e4538",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "0ca9fe2f-4fe2-4aa0-90f5-200b6d0f4138",
+        "quantity": 96530,
+        "status": "In stock",
+        "created_at": "2023-08-24T10:14:59.849Z",
+        "updated_at": "2023-08-23T20:41:36.656Z",
+        "business_id": "main_entity_pk",
+        "product_id": "3f8d8289-5c6a-4201-975d-207e2b676645"
+      },
+      {
+        "id": "195bf77f-3f2d-4b16-bee7-4546493ac050",
+        "quantity": 24395,
+        "status": "Low stock",
+        "created_at": "2023-08-23T23:42:47.819Z",
+        "updated_at": "2023-08-23T20:55:23.225Z",
+        "business_id": "main_entity_pk",
+        "product_id": "26c9272e-8697-4a8b-a775-cd7fe2a38763"
+      },
+      {
+        "id": "aef1d8d6-4f15-46d8-927f-f331a057323e",
+        "quantity": 48484,
+        "status": "Out of stock",
+        "created_at": "2023-08-24T07:16:03.761Z",
+        "updated_at": "2023-08-24T01:20:54.048Z",
+        "business_id": "main_entity_pk",
+        "product_id": "31e1596c-e295-43b1-ae8b-406ee7df6647"
+      },
+      {
+        "id": "1192b083-c6c6-4113-bb64-5f93e44600a5",
+        "quantity": 33627,
+        "status": "Reserved",
+        "created_at": "2023-08-23T17:33:32.829Z",
+        "updated_at": "2023-08-24T03:41:58.921Z",
+        "business_id": "main_entity_pk",
+        "product_id": "26c9272e-8697-4a8b-a775-cd7fe2a38763"
+      },
+      {
+        "id": "b14b0a0f-4962-4a04-9d62-feb3fbde70db",
+        "quantity": 1929,
+        "status": "Discontinued",
+        "created_at": "2023-08-24T00:38:43.224Z",
+        "updated_at": "2023-08-24T05:21:01.462Z",
+        "business_id": "main_entity_pk",
+        "product_id": "fb455e60-b2d0-48a4-a8f4-76784b6e4538"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1842346a-a7a1-426e-b07c-327ef15d53f1",
+        "email": "Ewell83@yahoo.com",
+        "firstName": "Ernest",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91656589",
+        "tenantId": null
+      },
+      {
+        "reference": "5a0a2136-53f5-48e8-af3d-f5171b3a57ca",
+        "email": "Emmitt10@hotmail.com",
+        "firstName": "Vicenta",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/123.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "95cd6637-5d2a-448c-a735-3ca683646039",
+        "email": "Leslie_Heidenreich52@yahoo.com",
+        "firstName": "Estella",
+        "lastName": "Hahn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/122.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a8fc463b-6e00-4767-abb7-49954a6fef3f",
+        "email": "Kaia15@gmail.com",
+        "firstName": "Jeramy",
+        "lastName": "Wintheiser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/750.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4af0fb97-830d-4aff-bda6-ae7b863f62a9",
+        "email": "Chesley86@gmail.com",
+        "firstName": "Cristobal",
+        "lastName": "Flatley-Bartell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1169.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "786b07a8-4190-431d-8879-b6cd7ed5fcdd",
+        "name": "Smartphone",
+        "description": "The latest smartphone with advanced features",
+        "quantity": 88023,
+        "status": "Available",
+        "created_at": "2023-08-23T18:52:59.086Z",
+        "updated_at": "2023-08-23T23:11:10.320Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "8cae5519-b412-4e2b-859d-06db00367d8d",
+        "name": "Gourmet Coffee",
+        "description": "Premium blend coffee beans from around the world",
+        "quantity": 24594,
+        "status": "Out of Stock",
+        "created_at": "2023-08-24T06:06:34.379Z",
+        "updated_at": "2023-08-23T22:34:50.668Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "d6f81d22-9db9-4cc8-8b9e-01a7171741ff",
+        "name": "Organic Cotton T-Shirt",
+        "description": "Sustainably sourced and ethically made t-shirt",
+        "quantity": 63462,
+        "status": "Limited Edition",
+        "created_at": "2023-08-24T11:11:48.964Z",
+        "updated_at": "2023-08-23T21:20:29.016Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "9166ab46-b803-4378-bd06-f7e27e9f3eec",
+        "name": "Business Strategy Book",
+        "description": "A comprehensive guide to effective business strategies",
+        "quantity": 97282,
+        "status": "Coming Soon",
+        "created_at": "2023-08-23T14:10:10.523Z",
+        "updated_at": "2023-08-23T19:45:19.180Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "8af04fd0-037a-4d35-8cdc-83fabdce5f79",
+        "name": "Luxury Suite",
+        "description": "Spacious and luxurious suite with stunning city views",
+        "quantity": 57145,
+        "status": "On Sale",
+        "created_at": "2023-08-24T06:07:16.153Z",
+        "updated_at": "2023-08-23T17:57:10.257Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "a0d4b590-66ad-4f01-9768-00944f45e3b8",
+        "status": "Active",
+        "quantity": 61945,
+        "created_at": "2023-08-23T18:25:11.434Z",
+        "updated_at": "2023-08-24T02:19:45.412Z",
+        "business_id": "main_entity_pk",
+        "product_id": "8af04fd0-037a-4d35-8cdc-83fabdce5f79"
+      },
+      {
+        "id": "8d34dc35-6547-4a16-812c-221dc328a92b",
+        "status": "Pending",
+        "quantity": 46056,
+        "created_at": "2023-08-23T19:16:31.657Z",
+        "updated_at": "2023-08-24T06:48:46.894Z",
+        "business_id": "main_entity_pk",
+        "product_id": "9166ab46-b803-4378-bd06-f7e27e9f3eec"
+      },
+      {
+        "id": "7f869c28-a98a-4534-9334-12d4cbd1e5a6",
+        "status": "Delayed",
+        "quantity": 12962,
+        "created_at": "2023-08-24T12:03:48.561Z",
+        "updated_at": "2023-08-24T11:47:57.465Z",
+        "business_id": "main_entity_pk",
+        "product_id": "786b07a8-4190-431d-8879-b6cd7ed5fcdd"
+      },
+      {
+        "id": "d6ce52f9-d0ce-42cf-b34e-8eba153a39b2",
+        "status": "Completed",
+        "quantity": 4959,
+        "created_at": "2023-08-23T14:41:15.941Z",
+        "updated_at": "2023-08-24T02:07:01.401Z",
+        "business_id": "main_entity_pk",
+        "product_id": "786b07a8-4190-431d-8879-b6cd7ed5fcdd"
+      },
+      {
+        "id": "27a987d2-0999-42dc-adbf-553e25d8e9f9",
+        "status": "Cancelled",
+        "quantity": 25645,
+        "created_at": "2023-08-23T22:40:39.541Z",
+        "updated_at": "2023-08-24T01:42:39.188Z",
+        "business_id": "main_entity_pk",
+        "product_id": "8cae5519-b412-4e2b-859d-06db00367d8d"
+      }
+    ],
+    "order": [
+      {
+        "id": "c7049f30-7dcf-485a-b45c-ad5fd55ef557",
+        "status": "Processing",
+        "quantity": 38633,
+        "created_at": "2023-08-24T03:29:41.570Z",
+        "updated_at": "2023-08-24T10:18:05.809Z",
+        "product_id": "8af04fd0-037a-4d35-8cdc-83fabdce5f79",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c3ff599-ebc8-41d6-a121-d0c1445fbe63",
+        "status": "Shipped",
+        "quantity": 40493,
+        "created_at": "2023-08-24T00:00:39.042Z",
+        "updated_at": "2023-08-23T16:35:33.118Z",
+        "product_id": "786b07a8-4190-431d-8879-b6cd7ed5fcdd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e422880a-13b6-490c-be5a-ef1607b6c650",
+        "status": "Delivered",
+        "quantity": 46906,
+        "created_at": "2023-08-24T07:55:56.616Z",
+        "updated_at": "2023-08-23T14:13:18.726Z",
+        "product_id": "8cae5519-b412-4e2b-859d-06db00367d8d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1af41c57-33c2-4b15-8300-63d1e51b933b",
+        "status": "Cancelled",
+        "quantity": 61149,
+        "created_at": "2023-08-23T17:29:28.746Z",
+        "updated_at": "2023-08-23T17:09:18.219Z",
+        "product_id": "8af04fd0-037a-4d35-8cdc-83fabdce5f79",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "079420da-7a92-46fd-89fb-a66dd52a56af",
+        "status": "Refunded",
+        "quantity": 37695,
+        "created_at": "2023-08-24T09:06:32.859Z",
+        "updated_at": "2023-08-24T08:41:05.822Z",
+        "product_id": "786b07a8-4190-431d-8879-b6cd7ed5fcdd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "6f798099-a6b3-4ccc-ac7a-d73999409ec6",
+        "quantity": 52153,
+        "status": "In Stock",
+        "created_at": "2023-08-24T01:02:34.648Z",
+        "updated_at": "2023-08-23T14:56:48.622Z",
+        "business_id": "main_entity_pk",
+        "product_id": "8af04fd0-037a-4d35-8cdc-83fabdce5f79"
+      },
+      {
+        "id": "b26d24fd-e0d3-4095-8d3f-a380ce19aea0",
+        "quantity": 99145,
+        "status": "Low Stock",
+        "created_at": "2023-08-23T21:43:21.685Z",
+        "updated_at": "2023-08-24T05:56:18.608Z",
+        "business_id": "main_entity_pk",
+        "product_id": "9166ab46-b803-4378-bd06-f7e27e9f3eec"
+      },
+      {
+        "id": "940d910e-b31c-47de-b09d-c8a21e134959",
+        "quantity": 58789,
+        "status": "Out of Stock",
+        "created_at": "2023-08-24T10:58:27.109Z",
+        "updated_at": "2023-08-23T19:00:34.671Z",
+        "business_id": "main_entity_pk",
+        "product_id": "8cae5519-b412-4e2b-859d-06db00367d8d"
+      },
+      {
+        "id": "979a4a34-f40b-4b02-ab40-c8b0052f346f",
+        "quantity": 98851,
+        "status": "On Hold",
+        "created_at": "2023-08-24T11:57:54.210Z",
+        "updated_at": "2023-08-24T12:14:24.739Z",
+        "business_id": "main_entity_pk",
+        "product_id": "d6f81d22-9db9-4cc8-8b9e-01a7171741ff"
+      },
+      {
+        "id": "cea63307-2339-4304-8d21-bd49b1a8e838",
+        "quantity": 47143,
+        "status": "Discontinued",
+        "created_at": "2023-08-24T03:14:59.326Z",
+        "updated_at": "2023-08-24T00:14:39.514Z",
+        "business_id": "main_entity_pk",
+        "product_id": "9166ab46-b803-4378-bd06-f7e27e9f3eec"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6c792f37-88f8-41eb-88c1-2ad872618c2d",
+        "email": "Mercedes94@yahoo.com",
+        "firstName": "Glen",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/208.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2ade2224-5400-4229-bd11-fc03446dd6eb",
+        "email": "Sydni.Marks@yahoo.com",
+        "firstName": "Bennett",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/16.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5eeab093-90a5-4ed3-b244-c339427a9a0b",
+        "email": "Nash_Wunsch80@hotmail.com",
+        "firstName": "Rebekah",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34184951",
+        "tenantId": null
+      },
+      {
+        "reference": "7698647b-5ee7-4a67-a879-101b9979d538",
+        "email": "Johanna55@gmail.com",
+        "firstName": "Bradly",
+        "lastName": "Bergstrom",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/596.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6187bec9-a82d-431f-935c-6ea61345bf2c",
+        "email": "Raphael93@yahoo.com",
+        "firstName": "Elise",
+        "lastName": "VonRueden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/346.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "399db25c-2419-44af-8589-1e3d57df0b80",
+        "name": "T-shirt",
+        "description": "Comfortable and stylish",
+        "quantity": 34357,
+        "status": "Available",
+        "created_at": "2023-08-23T16:04:57.362Z",
+        "updated_at": "2023-08-23T21:53:33.551Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "9b251a22-575e-489e-990c-7d77bb20ec58",
+        "name": "Pizza",
+        "description": "Delicious and cheesy",
+        "quantity": 91902,
+        "status": "Out of stock",
+        "created_at": "2023-08-24T04:27:12.113Z",
+        "updated_at": "2023-08-24T08:50:09.545Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "56d419bc-ca6e-48f0-9e7b-8a31a0c880ea",
+        "name": "Smartphone",
+        "description": "High-performance device",
+        "quantity": 47618,
+        "status": "Coming soon",
+        "created_at": "2023-08-24T10:45:08.430Z",
+        "updated_at": "2023-08-23T13:54:14.864Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "83ca316f-0e82-4ff3-9746-c24649eb3f33",
+        "name": "Yoga mat",
+        "description": "Non-slip and durable",
+        "quantity": 73148,
+        "status": "Limited stock",
+        "created_at": "2023-08-24T04:57:44.147Z",
+        "updated_at": "2023-08-24T01:20:06.591Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "0a52ad43-e413-42e2-8dbb-4296a7d8b588",
+        "name": "Novel",
+        "description": "Captivating story",
+        "quantity": 45098,
+        "status": "On sale",
+        "created_at": "2023-08-24T01:41:18.945Z",
+        "updated_at": "2023-08-23T15:11:59.209Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "e7b7319f-3d34-4030-b560-c07c1c09edbb",
+        "status": "Active",
+        "quantity": 55768,
+        "created_at": "2023-08-23T22:18:53.692Z",
+        "updated_at": "2023-08-24T11:58:05.915Z",
+        "business_id": "main_entity_pk",
+        "product_id": "56d419bc-ca6e-48f0-9e7b-8a31a0c880ea"
+      },
+      {
+        "id": "b50e7fd3-df12-437a-8e1e-8627eca73719",
+        "status": "Inactive",
+        "quantity": 49597,
+        "created_at": "2023-08-24T05:36:03.806Z",
+        "updated_at": "2023-08-24T12:26:31.077Z",
+        "business_id": "main_entity_pk",
+        "product_id": "399db25c-2419-44af-8589-1e3d57df0b80"
+      },
+      {
+        "id": "f718f971-f0e8-407e-a47e-c0184d30db8b",
+        "status": "Under maintenance",
+        "quantity": 20886,
+        "created_at": "2023-08-23T13:52:54.750Z",
+        "updated_at": "2023-08-23T22:56:55.618Z",
+        "business_id": "main_entity_pk",
+        "product_id": "56d419bc-ca6e-48f0-9e7b-8a31a0c880ea"
+      },
+      {
+        "id": "1731647b-64b3-4834-ba2b-99d8fbd4123f",
+        "status": "Delayed",
+        "quantity": 32343,
+        "created_at": "2023-08-23T21:29:44.390Z",
+        "updated_at": "2023-08-23T19:18:27.440Z",
+        "business_id": "main_entity_pk",
+        "product_id": "9b251a22-575e-489e-990c-7d77bb20ec58"
+      },
+      {
+        "id": "a52796a6-ea98-42e5-ae40-a21c23aecd1c",
+        "status": "Operational",
+        "quantity": 60389,
+        "created_at": "2023-08-24T11:01:52.442Z",
+        "updated_at": "2023-08-24T03:56:59.409Z",
+        "business_id": "main_entity_pk",
+        "product_id": "0a52ad43-e413-42e2-8dbb-4296a7d8b588"
+      }
+    ],
+    "order": [
+      {
+        "id": "0b48db52-59d5-4afc-b255-0bdcea87c54c",
+        "status": "Pending",
+        "quantity": 14738,
+        "created_at": "2023-08-23T13:01:10.118Z",
+        "updated_at": "2023-08-23T23:57:04.350Z",
+        "product_id": "0a52ad43-e413-42e2-8dbb-4296a7d8b588",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5921fca9-7775-47aa-bfa9-811801b878ec",
+        "status": "Processing",
+        "quantity": 52776,
+        "created_at": "2023-08-23T19:50:15.312Z",
+        "updated_at": "2023-08-23T14:58:59.937Z",
+        "product_id": "83ca316f-0e82-4ff3-9746-c24649eb3f33",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1194aaf5-0a6b-48ec-bc25-815610c0f329",
+        "status": "Shipped",
+        "quantity": 16518,
+        "created_at": "2023-08-24T01:39:19.514Z",
+        "updated_at": "2023-08-23T22:17:39.955Z",
+        "product_id": "83ca316f-0e82-4ff3-9746-c24649eb3f33",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb196a50-7298-4110-89ae-001c244787c4",
+        "status": "Delivered",
+        "quantity": 76135,
+        "created_at": "2023-08-24T09:05:11.962Z",
+        "updated_at": "2023-08-24T07:33:39.448Z",
+        "product_id": "9b251a22-575e-489e-990c-7d77bb20ec58",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79d914fd-545f-480b-a59c-e7e83a66cb21",
+        "status": "Cancelled",
+        "quantity": 26181,
+        "created_at": "2023-08-24T07:42:38.749Z",
+        "updated_at": "2023-08-24T05:17:43.137Z",
+        "product_id": "399db25c-2419-44af-8589-1e3d57df0b80",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "0810e3dd-4792-42df-a617-f5191aac57c6",
+        "quantity": 77083,
+        "status": "In stock",
+        "created_at": "2023-08-23T23:31:00.759Z",
+        "updated_at": "2023-08-24T11:30:19.703Z",
+        "business_id": "main_entity_pk",
+        "product_id": "9b251a22-575e-489e-990c-7d77bb20ec58"
+      },
+      {
+        "id": "1f0dc343-fbe8-4403-9cb9-49729f6abf56",
+        "quantity": 47145,
+        "status": "Low stock",
+        "created_at": "2023-08-23T20:45:32.762Z",
+        "updated_at": "2023-08-24T11:20:51.498Z",
+        "business_id": "main_entity_pk",
+        "product_id": "56d419bc-ca6e-48f0-9e7b-8a31a0c880ea"
+      },
+      {
+        "id": "ba5e4523-be44-4d18-a2b5-2ece9688c7a8",
+        "quantity": 54442,
+        "status": "Out of stock",
+        "created_at": "2023-08-23T18:06:22.418Z",
+        "updated_at": "2023-08-24T01:55:50.247Z",
+        "business_id": "main_entity_pk",
+        "product_id": "56d419bc-ca6e-48f0-9e7b-8a31a0c880ea"
+      },
+      {
+        "id": "a7d00ace-3b25-496e-a462-8523eb75f789",
+        "quantity": 89478,
+        "status": "Reserved",
+        "created_at": "2023-08-24T02:19:51.107Z",
+        "updated_at": "2023-08-23T21:44:41.749Z",
+        "business_id": "main_entity_pk",
+        "product_id": "399db25c-2419-44af-8589-1e3d57df0b80"
+      },
+      {
+        "id": "5ce3a86b-e655-4580-a34a-7f27ca41c281",
+        "quantity": 60174,
+        "status": "Available",
+        "created_at": "2023-08-24T06:40:45.144Z",
+        "updated_at": "2023-08-24T08:25:36.045Z",
+        "business_id": "main_entity_pk",
+        "product_id": "399db25c-2419-44af-8589-1e3d57df0b80"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "aa5348a4-c8d3-4003-b072-2a989c910be4",
+        "email": "Kylie93@yahoo.com",
+        "firstName": "Vidal",
+        "lastName": "Prohaska",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87971811",
+        "tenantId": null
+      },
+      {
+        "reference": "6aa2c610-67fe-4280-99fa-3937392a36e0",
+        "email": "Ashleigh_Sporer99@hotmail.com",
+        "firstName": "Jason",
+        "lastName": "Lemke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15910311",
+        "tenantId": null
+      },
+      {
+        "reference": "1efd91c0-1950-4610-ab43-3d0bf0d9a8ec",
+        "email": "Valerie30@gmail.com",
+        "firstName": "Lucius",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1122.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f6094e96-1a1e-47a5-8611-bc656fa7360c",
+        "email": "Brando.Marvin49@hotmail.com",
+        "firstName": "Timothy",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1173.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3cbbc237-1da0-491e-884e-dfcf99c308fd",
+        "email": "Treva97@yahoo.com",
+        "firstName": "Emmy",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67385549",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "cb200ff3-bbc2-4821-8582-c70c657fe26b",
+        "name": "Deluxe Coffee Maker",
+        "description": "Brew the perfect cup of coffee",
+        "quantity": 59782,
+        "status": "Available",
+        "created_at": "2023-08-24T05:51:29.934Z",
+        "updated_at": "2023-08-23T21:16:40.187Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "133089f7-b761-4183-b84a-38c63f3ade29",
+        "name": "Stylish Leather Handbag",
+        "description": "Carry your essentials in style",
+        "quantity": 79127,
+        "status": "Out of Stock",
+        "created_at": "2023-08-24T03:03:12.360Z",
+        "updated_at": "2023-08-24T08:26:17.209Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "32b0c79f-cd2f-4c94-8555-df38ad37c93e",
+        "name": "Gourmet Chocolate Assortment",
+        "description": "Indulge in a variety of chocolates",
+        "quantity": 67089,
+        "status": "Limited Edition",
+        "created_at": "2023-08-24T10:48:34.580Z",
+        "updated_at": "2023-08-23T19:12:07.754Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "7eb6c3b5-2ff7-49de-9318-e8dbff0087bc",
+        "name": "Smart Home Security System",
+        "description": "Protect your home with advanced technology",
+        "quantity": 39299,
+        "status": "Coming Soon",
+        "created_at": "2023-08-24T02:46:58.879Z",
+        "updated_at": "2023-08-24T06:20:57.062Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "d6aec3e2-0366-44ff-9caf-f1aaf4dd0cb8",
+        "name": "Premium Art Supplies Set",
+        "description": "Unleash your creativity with high-quality materials",
+        "quantity": 32362,
+        "status": "On Sale",
+        "created_at": "2023-08-24T11:25:22.740Z",
+        "updated_at": "2023-08-24T04:08:18.095Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "57b7cab4-d939-4740-8cd3-8a8243d37fb8",
+        "status": "Active",
+        "quantity": 43642,
+        "created_at": "2023-08-23T21:23:48.258Z",
+        "updated_at": "2023-08-23T20:58:23.383Z",
+        "business_id": "main_entity_pk",
+        "product_id": "d6aec3e2-0366-44ff-9caf-f1aaf4dd0cb8"
+      },
+      {
+        "id": "bb33ff77-9b43-45b6-93e9-571b6fb41d47",
+        "status": "Inactive",
+        "quantity": 31677,
+        "created_at": "2023-08-24T08:30:39.649Z",
+        "updated_at": "2023-08-24T06:35:17.501Z",
+        "business_id": "main_entity_pk",
+        "product_id": "d6aec3e2-0366-44ff-9caf-f1aaf4dd0cb8"
+      },
+      {
+        "id": "cc4ed585-f492-4936-a74a-080db1417210",
+        "status": "Pending",
+        "quantity": 98281,
+        "created_at": "2023-08-24T00:41:00.122Z",
+        "updated_at": "2023-08-24T04:20:16.904Z",
+        "business_id": "main_entity_pk",
+        "product_id": "7eb6c3b5-2ff7-49de-9318-e8dbff0087bc"
+      },
+      {
+        "id": "f9f1cbe6-91d6-42f1-921b-76dbdeed53b1",
+        "status": "In Progress",
+        "quantity": 31766,
+        "created_at": "2023-08-24T02:12:27.660Z",
+        "updated_at": "2023-08-24T06:10:19.247Z",
+        "business_id": "main_entity_pk",
+        "product_id": "32b0c79f-cd2f-4c94-8555-df38ad37c93e"
+      },
+      {
+        "id": "338f4f55-c612-45dc-b8cb-36ab9065bde8",
+        "status": "Completed",
+        "quantity": 60317,
+        "created_at": "2023-08-24T07:23:02.147Z",
+        "updated_at": "2023-08-23T20:45:43.140Z",
+        "business_id": "main_entity_pk",
+        "product_id": "7eb6c3b5-2ff7-49de-9318-e8dbff0087bc"
+      }
+    ],
+    "order": [
+      {
+        "id": "3f4fb2be-f188-4acd-91c6-65b5f0ff84e7",
+        "status": "Processing",
+        "quantity": 28786,
+        "created_at": "2023-08-23T14:26:50.980Z",
+        "updated_at": "2023-08-23T12:58:54.196Z",
+        "product_id": "cb200ff3-bbc2-4821-8582-c70c657fe26b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf80bfe6-26c1-4e51-8018-473079efd16d",
+        "status": "Shipped",
+        "quantity": 56406,
+        "created_at": "2023-08-24T11:20:27.384Z",
+        "updated_at": "2023-08-24T12:18:15.467Z",
+        "product_id": "cb200ff3-bbc2-4821-8582-c70c657fe26b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c44ef112-3621-44c4-9a72-162bdc90663a",
+        "status": "Delivered",
+        "quantity": 25608,
+        "created_at": "2023-08-23T14:03:04.170Z",
+        "updated_at": "2023-08-24T05:39:03.986Z",
+        "product_id": "cb200ff3-bbc2-4821-8582-c70c657fe26b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8702efef-bb7c-442b-a4f2-e2961b586606",
+        "status": "Cancelled",
+        "quantity": 40510,
+        "created_at": "2023-08-24T03:14:50.348Z",
+        "updated_at": "2023-08-23T16:33:44.739Z",
+        "product_id": "7eb6c3b5-2ff7-49de-9318-e8dbff0087bc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7daaad39-4c0a-4973-9324-01a89598ec09",
+        "status": "On Hold",
+        "quantity": 40695,
+        "created_at": "2023-08-24T01:49:25.943Z",
+        "updated_at": "2023-08-24T09:50:48.531Z",
+        "product_id": "d6aec3e2-0366-44ff-9caf-f1aaf4dd0cb8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "a490b7ff-83dc-4e3d-89e0-825ae2b18eb5",
+        "quantity": 47425,
+        "status": "In Stock",
+        "created_at": "2023-08-23T16:03:35.534Z",
+        "updated_at": "2023-08-23T14:33:01.126Z",
+        "business_id": "main_entity_pk",
+        "product_id": "133089f7-b761-4183-b84a-38c63f3ade29"
+      },
+      {
+        "id": "937e9096-4d72-4733-8f6c-873c16f7d737",
+        "quantity": 12633,
+        "status": "Low Stock",
+        "created_at": "2023-08-23T14:21:25.473Z",
+        "updated_at": "2023-08-23T22:52:32.050Z",
+        "business_id": "main_entity_pk",
+        "product_id": "32b0c79f-cd2f-4c94-8555-df38ad37c93e"
+      },
+      {
+        "id": "40a4e9dd-a052-464b-893c-49bacdedb24a",
+        "quantity": 63003,
+        "status": "Out of Stock",
+        "created_at": "2023-08-24T11:42:29.324Z",
+        "updated_at": "2023-08-23T15:46:02.905Z",
+        "business_id": "main_entity_pk",
+        "product_id": "cb200ff3-bbc2-4821-8582-c70c657fe26b"
+      },
+      {
+        "id": "f91ac9c8-8795-41f4-94e5-7b8071c455b2",
+        "quantity": 48247,
+        "status": "Reserved",
+        "created_at": "2023-08-24T09:18:50.766Z",
+        "updated_at": "2023-08-24T04:10:46.578Z",
+        "business_id": "main_entity_pk",
+        "product_id": "32b0c79f-cd2f-4c94-8555-df38ad37c93e"
+      },
+      {
+        "id": "c1fddc67-4bce-4565-9d8e-ba4170f07346",
+        "quantity": 10217,
+        "status": "Discontinued",
+        "created_at": "2023-08-23T23:13:47.596Z",
+        "updated_at": "2023-08-24T11:35:46.047Z",
+        "business_id": "main_entity_pk",
+        "product_id": "7eb6c3b5-2ff7-49de-9318-e8dbff0087bc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "61992263-7b60-40e2-8de3-c46850adf2ad",
+        "email": "Adan67@hotmail.com",
+        "firstName": "Kaycee",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/474.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f4d9f762-75de-41fa-b6c9-dfc41ed68ac3",
+        "email": "Ulises.Abbott53@gmail.com",
+        "firstName": "Milan",
+        "lastName": "Strosin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86324725",
+        "tenantId": null
+      },
+      {
+        "reference": "d97c9b10-a6b1-41cb-a975-17ff75675581",
+        "email": "Mabelle81@gmail.com",
+        "firstName": "Leonardo",
+        "lastName": "Brakus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1115.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ecc9b679-02f6-4271-8a59-7cc827ec0d0a",
+        "email": "Clara_Homenick54@hotmail.com",
+        "firstName": "Leif",
+        "lastName": "Hyatt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/79.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8e5dc67b-d110-46b6-9ad1-1923c1ad05ad",
+        "email": "Bernardo_Kovacek85@yahoo.com",
+        "firstName": "Paxton",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/196.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "4ad8f06e-3e50-4859-be27-7a927fe3e500",
+        "name": "Smartphone",
+        "description": "High-performance device with advanced features",
+        "quantity": 47861,
+        "status": "Available",
+        "created_at": "2023-08-24T00:43:52.074Z",
+        "updated_at": "2023-08-23T16:18:53.994Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "1964bc08-f741-4173-96c3-5b85dd846b32",
+        "name": "Laptop",
+        "description": "Sleek and portable for productivity on the go",
+        "quantity": 48727,
+        "status": "Out of Stock",
+        "created_at": "2023-08-23T16:25:31.129Z",
+        "updated_at": "2023-08-24T08:38:09.077Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "7b4eacc7-d213-4a50-8041-df88f45d54ab",
+        "name": "T-Shirt",
+        "description": "Comfortable and stylish apparel for everyday wear",
+        "quantity": 91530,
+        "status": "Coming Soon",
+        "created_at": "2023-08-24T04:44:01.904Z",
+        "updated_at": "2023-08-24T07:35:48.624Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "2f53a295-b3c3-4809-bc2b-0dea92af9941",
+        "name": "Shoes",
+        "description": "Durable and trendy footwear for all occasions",
+        "quantity": 57536,
+        "status": "Limited Edition",
+        "created_at": "2023-08-24T11:45:08.414Z",
+        "updated_at": "2023-08-23T13:57:20.364Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "882006ec-20c7-47d5-8699-673427fe6d0f",
+        "name": "Coffee Mug",
+        "description": "Elegant and functional mug for enjoying your favorite beverages",
+        "quantity": 90740,
+        "status": "On Sale",
+        "created_at": "2023-08-23T17:34:46.562Z",
+        "updated_at": "2023-08-24T01:49:18.692Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "a23bd454-e4ab-44ad-8960-6b3cf2a4bd5b",
+        "status": "Active",
+        "quantity": 71570,
+        "created_at": "2023-08-24T11:28:45.019Z",
+        "updated_at": "2023-08-24T04:54:14.634Z",
+        "business_id": "main_entity_pk",
+        "product_id": "7b4eacc7-d213-4a50-8041-df88f45d54ab"
+      },
+      {
+        "id": "5cb3d617-21b1-4920-b2a3-0782ac013042",
+        "status": "Inactive",
+        "quantity": 37221,
+        "created_at": "2023-08-24T02:35:49.581Z",
+        "updated_at": "2023-08-24T01:42:21.118Z",
+        "business_id": "main_entity_pk",
+        "product_id": "2f53a295-b3c3-4809-bc2b-0dea92af9941"
+      },
+      {
+        "id": "e8c10e7e-8b83-4645-ad3e-615abe0d7b09",
+        "status": "Pending",
+        "quantity": 28162,
+        "created_at": "2023-08-23T23:18:02.367Z",
+        "updated_at": "2023-08-24T03:44:48.256Z",
+        "business_id": "main_entity_pk",
+        "product_id": "882006ec-20c7-47d5-8699-673427fe6d0f"
+      },
+      {
+        "id": "a9d50d6c-19c5-4542-adcd-7f9964df3384",
+        "status": "Completed",
+        "quantity": 64631,
+        "created_at": "2023-08-23T19:48:42.435Z",
+        "updated_at": "2023-08-23T20:33:13.218Z",
+        "business_id": "main_entity_pk",
+        "product_id": "4ad8f06e-3e50-4859-be27-7a927fe3e500"
+      },
+      {
+        "id": "2c6c5509-a525-4dff-924b-a4d6c98e8e36",
+        "status": "Delayed",
+        "quantity": 56336,
+        "created_at": "2023-08-23T22:28:57.819Z",
+        "updated_at": "2023-08-23T21:27:07.684Z",
+        "business_id": "main_entity_pk",
+        "product_id": "7b4eacc7-d213-4a50-8041-df88f45d54ab"
+      }
+    ],
+    "order": [
+      {
+        "id": "00d87c40-5218-43c7-a7d7-3cac973621b0",
+        "status": "Processing",
+        "quantity": 36547,
+        "created_at": "2023-08-23T22:09:03.866Z",
+        "updated_at": "2023-08-23T22:39:17.099Z",
+        "product_id": "4ad8f06e-3e50-4859-be27-7a927fe3e500",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ea321b4-2c46-4252-b7ba-c03ee1a69cdf",
+        "status": "Shipped",
+        "quantity": 82843,
+        "created_at": "2023-08-24T06:04:46.163Z",
+        "updated_at": "2023-08-24T01:19:35.376Z",
+        "product_id": "882006ec-20c7-47d5-8699-673427fe6d0f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "773159c0-6fbc-450d-9337-acdc0b34900c",
+        "status": "Delivered",
+        "quantity": 36829,
+        "created_at": "2023-08-24T08:40:59.237Z",
+        "updated_at": "2023-08-24T00:12:54.583Z",
+        "product_id": "2f53a295-b3c3-4809-bc2b-0dea92af9941",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8faa181e-12fc-4f45-85f8-54775e3326fa",
+        "status": "Cancelled",
+        "quantity": 19757,
+        "created_at": "2023-08-23T12:46:58.548Z",
+        "updated_at": "2023-08-24T00:27:49.513Z",
+        "product_id": "1964bc08-f741-4173-96c3-5b85dd846b32",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e6db3b5-373f-4634-9e91-ecc48f2dd28a",
+        "status": "Returned",
+        "quantity": 41068,
+        "created_at": "2023-08-23T14:02:44.947Z",
+        "updated_at": "2023-08-24T01:00:48.654Z",
+        "product_id": "4ad8f06e-3e50-4859-be27-7a927fe3e500",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "cffae489-4515-4c61-b6cd-030be90a4f59",
+        "quantity": 55444,
+        "status": "In Stock",
+        "created_at": "2023-08-24T03:59:21.395Z",
+        "updated_at": "2023-08-24T01:36:34.604Z",
+        "business_id": "main_entity_pk",
+        "product_id": "1964bc08-f741-4173-96c3-5b85dd846b32"
+      },
+      {
+        "id": "b5c337f1-7664-47af-afc0-f2c3b88aacfc",
+        "quantity": 38603,
+        "status": "Low Stock",
+        "created_at": "2023-08-24T12:40:46.307Z",
+        "updated_at": "2023-08-23T14:09:38.738Z",
+        "business_id": "main_entity_pk",
+        "product_id": "882006ec-20c7-47d5-8699-673427fe6d0f"
+      },
+      {
+        "id": "6f0da2c9-a950-491f-80f1-cbc8abe3deb0",
+        "quantity": 95835,
+        "status": "Out of Stock",
+        "created_at": "2023-08-24T05:22:41.195Z",
+        "updated_at": "2023-08-23T23:35:37.713Z",
+        "business_id": "main_entity_pk",
+        "product_id": "4ad8f06e-3e50-4859-be27-7a927fe3e500"
+      },
+      {
+        "id": "7e15c2ea-d952-4b83-9731-e6886e05e1fb",
+        "quantity": 16145,
+        "status": "Reserved",
+        "created_at": "2023-08-23T16:44:59.391Z",
+        "updated_at": "2023-08-23T18:54:13.737Z",
+        "business_id": "main_entity_pk",
+        "product_id": "4ad8f06e-3e50-4859-be27-7a927fe3e500"
+      },
+      {
+        "id": "54bca991-f679-43aa-80ed-9e42a2142421",
+        "quantity": 64104,
+        "status": "Discontinued",
+        "created_at": "2023-08-24T05:59:55.583Z",
+        "updated_at": "2023-08-24T10:13:50.044Z",
+        "business_id": "main_entity_pk",
+        "product_id": "2f53a295-b3c3-4809-bc2b-0dea92af9941"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "47e752d2-89fb-41cc-959f-d475ab4dc19e",
+        "email": "Gloria77@gmail.com",
+        "firstName": "Mossie",
+        "lastName": "Boyle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/452.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "412bce3e-c7b1-40ca-8eeb-00c8ace2685e",
+        "email": "Zachery.Lynch@hotmail.com",
+        "firstName": "Vivien",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1066.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fcf43fd3-a7be-406b-ba27-24c2b49f1844",
+        "email": "Zoila.Heaney59@yahoo.com",
+        "firstName": "Zola",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/35.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "50c6c35f-8ad7-4b18-9179-59e53d4afde6",
+        "email": "Delaney.Bartoletti-Dare@hotmail.com",
+        "firstName": "Haven",
+        "lastName": "Daugherty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/435.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e7953f53-8dae-4f8c-9cd1-7cf976c61281",
+        "email": "Eldora.Steuber@hotmail.com",
+        "firstName": "Maye",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20794186",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "40269111-a3cd-4269-a186-eb30bb24d223",
+        "name": "Smartphone",
+        "description": "A powerful device with advanced features",
+        "quantity": 30245,
+        "status": "Available",
+        "created_at": "2023-08-24T12:31:00.879Z",
+        "updated_at": "2023-08-24T08:46:11.958Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "40133bac-440c-47f5-8463-05294dd14bb7",
+        "name": "Laptop",
+        "description": "A high-performance computing machine",
+        "quantity": 23751,
+        "status": "Out of stock",
+        "created_at": "2023-08-23T20:43:15.531Z",
+        "updated_at": "2023-08-24T01:26:43.429Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "907e675e-be07-4416-ad06-803d4134f7c2",
+        "name": "Headphones",
+        "description": "Premium sound quality for immersive audio experience",
+        "quantity": 32687,
+        "status": "Pre-order",
+        "created_at": "2023-08-24T00:53:13.017Z",
+        "updated_at": "2023-08-24T11:15:12.456Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "441ac409-0d67-4cfc-a58d-e82768470e77",
+        "name": "Smartwatch",
+        "description": "Stay connected with smart notifications",
+        "quantity": 38676,
+        "status": "Limited edition",
+        "created_at": "2023-08-23T13:48:18.058Z",
+        "updated_at": "2023-08-24T00:37:10.220Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "1d7fddae-2b2d-4991-a24b-016461235b0e",
+        "name": "Camera",
+        "description": "Capture stunning photos and videos",
+        "quantity": 35193,
+        "status": "New arrival",
+        "created_at": "2023-08-24T00:56:05.843Z",
+        "updated_at": "2023-08-24T05:20:14.744Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "d047c94c-a992-4fad-97c7-589870769190",
+        "status": "In transit",
+        "quantity": 57828,
+        "created_at": "2023-08-24T00:31:03.522Z",
+        "updated_at": "2023-08-24T07:25:42.393Z",
+        "business_id": "main_entity_pk",
+        "product_id": "441ac409-0d67-4cfc-a58d-e82768470e77"
+      },
+      {
+        "id": "ba114341-6dc0-488b-8d09-f7c6073012ac",
+        "status": "Delivered",
+        "quantity": 63054,
+        "created_at": "2023-08-24T06:07:59.909Z",
+        "updated_at": "2023-08-23T18:48:05.847Z",
+        "business_id": "main_entity_pk",
+        "product_id": "907e675e-be07-4416-ad06-803d4134f7c2"
+      },
+      {
+        "id": "8f9634fa-c0ee-44b5-a7f8-f30d0678951a",
+        "status": "Processing",
+        "quantity": 39311,
+        "created_at": "2023-08-23T18:41:33.013Z",
+        "updated_at": "2023-08-23T18:37:27.253Z",
+        "business_id": "main_entity_pk",
+        "product_id": "1d7fddae-2b2d-4991-a24b-016461235b0e"
+      },
+      {
+        "id": "abbd5bc1-eaa9-4d0b-8513-996de94d70f5",
+        "status": "On hold",
+        "quantity": 71058,
+        "created_at": "2023-08-23T19:43:51.705Z",
+        "updated_at": "2023-08-23T20:20:19.834Z",
+        "business_id": "main_entity_pk",
+        "product_id": "441ac409-0d67-4cfc-a58d-e82768470e77"
+      },
+      {
+        "id": "d167d65a-65dd-4c35-aa78-f02014a3fdf8",
+        "status": "Shipped",
+        "quantity": 78275,
+        "created_at": "2023-08-24T05:40:24.343Z",
+        "updated_at": "2023-08-23T13:32:20.588Z",
+        "business_id": "main_entity_pk",
+        "product_id": "907e675e-be07-4416-ad06-803d4134f7c2"
+      }
+    ],
+    "order": [
+      {
+        "id": "c3e7accb-c98c-4228-ba10-a32655c06425",
+        "status": "Pending",
+        "quantity": 39488,
+        "created_at": "2023-08-23T23:02:40.405Z",
+        "updated_at": "2023-08-23T21:07:54.691Z",
+        "product_id": "40133bac-440c-47f5-8463-05294dd14bb7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34e7032f-e1f6-420b-a486-ccf496c58fc8",
+        "status": "Completed",
+        "quantity": 34614,
+        "created_at": "2023-08-24T10:58:29.123Z",
+        "updated_at": "2023-08-23T20:27:50.928Z",
+        "product_id": "40269111-a3cd-4269-a186-eb30bb24d223",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f425d01-bbf2-444a-b8d5-a2179c3b67d4",
+        "status": "Cancelled",
+        "quantity": 93245,
+        "created_at": "2023-08-24T12:20:48.717Z",
+        "updated_at": "2023-08-23T15:28:10.335Z",
+        "product_id": "40133bac-440c-47f5-8463-05294dd14bb7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b180c2b6-7cd1-47a9-96fc-f41f61e83fad",
+        "status": "Processing",
+        "quantity": 83648,
+        "created_at": "2023-08-23T15:09:46.065Z",
+        "updated_at": "2023-08-23T16:22:57.720Z",
+        "product_id": "441ac409-0d67-4cfc-a58d-e82768470e77",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52adc7f6-a28f-4b80-8b74-399f02513431",
+        "status": "On hold",
+        "quantity": 38636,
+        "created_at": "2023-08-24T05:29:05.935Z",
+        "updated_at": "2023-08-23T22:06:33.308Z",
+        "product_id": "441ac409-0d67-4cfc-a58d-e82768470e77",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "9696beb6-5fd4-4ef6-a284-41dfc7c2dc4e",
+        "quantity": 44970,
+        "status": "In stock",
+        "created_at": "2023-08-23T18:47:52.066Z",
+        "updated_at": "2023-08-24T01:04:00.432Z",
+        "business_id": "main_entity_pk",
+        "product_id": "907e675e-be07-4416-ad06-803d4134f7c2"
+      },
+      {
+        "id": "cb33d005-1e99-4d18-9bcb-179be52723fc",
+        "quantity": 52907,
+        "status": "Out of stock",
+        "created_at": "2023-08-23T23:30:38.374Z",
+        "updated_at": "2023-08-24T01:43:41.372Z",
+        "business_id": "main_entity_pk",
+        "product_id": "1d7fddae-2b2d-4991-a24b-016461235b0e"
+      },
+      {
+        "id": "1953c216-c52a-4cb4-8363-c44377f6830a",
+        "quantity": 56657,
+        "status": "Low stock",
+        "created_at": "2023-08-24T07:28:43.200Z",
+        "updated_at": "2023-08-24T10:53:47.402Z",
+        "business_id": "main_entity_pk",
+        "product_id": "907e675e-be07-4416-ad06-803d4134f7c2"
+      },
+      {
+        "id": "2caa0e81-ff81-4698-a0db-948eb135688f",
+        "quantity": 51658,
+        "status": "Replenishing",
+        "created_at": "2023-08-24T04:23:16.431Z",
+        "updated_at": "2023-08-24T10:17:19.935Z",
+        "business_id": "main_entity_pk",
+        "product_id": "40133bac-440c-47f5-8463-05294dd14bb7"
+      },
+      {
+        "id": "9ef29f12-f509-4f70-a806-c367885c4b50",
+        "quantity": 18920,
+        "status": "On hold",
+        "created_at": "2023-08-24T01:32:54.806Z",
+        "updated_at": "2023-08-23T19:06:15.250Z",
+        "business_id": "main_entity_pk",
+        "product_id": "441ac409-0d67-4cfc-a58d-e82768470e77"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2abeb478-dffb-4cb2-8d48-17c925e31bb3",
+        "email": "Hassan.Koss33@gmail.com",
+        "firstName": "Demario",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/223.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b22821b4-786e-4b57-acd7-e227a972695e",
+        "email": "Tyson_Ratke-Blick39@hotmail.com",
+        "firstName": "Retta",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/297.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8ad2061b-16f1-47d8-9141-93f9602b205b",
+        "email": "Tyrell.McKenzie-Harber@hotmail.com",
+        "firstName": "Caitlyn",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/363.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "770a0ca4-c3ca-44da-8876-a19f5bcd425b",
+        "email": "Evangeline.Senger@gmail.com",
+        "firstName": "Fletcher",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1160.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3c7d2e3d-1a73-43d6-afb1-9ff5e690475d",
+        "email": "Ethyl.Beatty3@yahoo.com",
+        "firstName": "Evie",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1058.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "d4342fbd-1623-4d13-bc47-7a6a9ab074d2",
+        "name": "Classic T-Shirt",
+        "description": "Soft and comfortable",
+        "quantity": 25205,
+        "status": "Available",
+        "created_at": "2023-08-24T05:53:22.256Z",
+        "updated_at": "2023-08-24T06:36:39.427Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "af73be9f-4979-47ed-9759-ad0ee3dead66",
+        "name": "Chocolate Chip Cookies",
+        "description": "Deliciously crunchy",
+        "quantity": 76278,
+        "status": "Out of stock",
+        "created_at": "2023-08-23T21:02:26.663Z",
+        "updated_at": "2023-08-23T17:39:06.434Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "9175a4e3-f676-40c9-8d77-9f433354a2ff",
+        "name": "Luxury Spa Package",
+        "description": "Indulge in relaxation",
+        "quantity": 33856,
+        "status": "Limited edition",
+        "created_at": "2023-08-24T05:09:45.979Z",
+        "updated_at": "2023-08-23T18:05:51.251Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "2800ea86-8497-4abd-be14-528821f01703",
+        "name": "Handcrafted Leather Bag",
+        "description": "Timeless elegance",
+        "quantity": 5194,
+        "status": "Coming soon",
+        "created_at": "2023-08-23T15:33:56.934Z",
+        "updated_at": "2023-08-24T07:52:29.216Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "2b2267ec-49ea-4400-8577-da3f93fe7379",
+        "name": "Yoga Mat",
+        "description": "Non-slip and durable",
+        "quantity": 88166,
+        "status": "On sale",
+        "created_at": "2023-08-24T07:59:26.821Z",
+        "updated_at": "2023-08-24T03:22:13.831Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "b3f3fbf3-46c3-4d08-9b87-70aaed9011ea",
+        "status": "In progress",
+        "quantity": 9154,
+        "created_at": "2023-08-23T15:14:36.970Z",
+        "updated_at": "2023-08-24T08:56:59.166Z",
+        "business_id": "main_entity_pk",
+        "product_id": "2b2267ec-49ea-4400-8577-da3f93fe7379"
+      },
+      {
+        "id": "8cf54fb2-6ec7-4960-863e-d74d52af4695",
+        "status": "Delayed",
+        "quantity": 92969,
+        "created_at": "2023-08-24T07:26:44.328Z",
+        "updated_at": "2023-08-23T23:33:23.976Z",
+        "business_id": "main_entity_pk",
+        "product_id": "2800ea86-8497-4abd-be14-528821f01703"
+      },
+      {
+        "id": "eb5967d1-f5eb-458c-b0c0-6633d7ef620e",
+        "status": "On hold",
+        "quantity": 57779,
+        "created_at": "2023-08-24T10:11:40.550Z",
+        "updated_at": "2023-08-24T00:35:29.532Z",
+        "business_id": "main_entity_pk",
+        "product_id": "2b2267ec-49ea-4400-8577-da3f93fe7379"
+      },
+      {
+        "id": "d818082f-fb7c-4de7-961b-baa997f00390",
+        "status": "Completed",
+        "quantity": 32596,
+        "created_at": "2023-08-24T06:51:03.069Z",
+        "updated_at": "2023-08-24T02:34:29.114Z",
+        "business_id": "main_entity_pk",
+        "product_id": "2b2267ec-49ea-4400-8577-da3f93fe7379"
+      },
+      {
+        "id": "20f558d0-41f0-461e-9bd5-6e26c5003f10",
+        "status": "Pending",
+        "quantity": 88055,
+        "created_at": "2023-08-24T09:48:22.179Z",
+        "updated_at": "2023-08-23T21:29:37.528Z",
+        "business_id": "main_entity_pk",
+        "product_id": "af73be9f-4979-47ed-9759-ad0ee3dead66"
+      }
+    ],
+    "order": [
+      {
+        "id": "9c64f2e9-3704-456c-9c5b-8887b932dace",
+        "status": "Processing",
+        "quantity": 99570,
+        "created_at": "2023-08-23T22:27:44.049Z",
+        "updated_at": "2023-08-23T16:23:51.678Z",
+        "product_id": "2800ea86-8497-4abd-be14-528821f01703",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24c6c78c-efbf-4b41-bb42-aff0bc7b9c98",
+        "status": "Shipped",
+        "quantity": 1536,
+        "created_at": "2023-08-23T13:57:12.681Z",
+        "updated_at": "2023-08-23T16:04:27.918Z",
+        "product_id": "9175a4e3-f676-40c9-8d77-9f433354a2ff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb7c62e6-afd3-4fa8-a1cb-9a18018d2567",
+        "status": "Delivered",
+        "quantity": 52655,
+        "created_at": "2023-08-23T16:26:44.688Z",
+        "updated_at": "2023-08-24T11:31:06.914Z",
+        "product_id": "9175a4e3-f676-40c9-8d77-9f433354a2ff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b489c98d-a6e0-4ec4-a04c-a70e3bc4f2c5",
+        "status": "Cancelled",
+        "quantity": 87793,
+        "created_at": "2023-08-24T05:07:54.087Z",
+        "updated_at": "2023-08-23T20:12:18.156Z",
+        "product_id": "2b2267ec-49ea-4400-8577-da3f93fe7379",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5bbeef2-9353-4849-a55d-1e34f61d8f74",
+        "status": "Returned",
+        "quantity": 59978,
+        "created_at": "2023-08-23T19:48:39.141Z",
+        "updated_at": "2023-08-23T19:35:40.602Z",
+        "product_id": "d4342fbd-1623-4d13-bc47-7a6a9ab074d2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "507fabfd-1fcd-4e40-91be-b4dcbb34f04f",
+        "quantity": 44237,
+        "status": "In stock",
+        "created_at": "2023-08-24T01:01:11.260Z",
+        "updated_at": "2023-08-23T18:39:19.718Z",
+        "business_id": "main_entity_pk",
+        "product_id": "af73be9f-4979-47ed-9759-ad0ee3dead66"
+      },
+      {
+        "id": "3a8ec121-9373-4ed5-84a7-a1d12eb05b89",
+        "quantity": 99477,
+        "status": "Low stock",
+        "created_at": "2023-08-23T23:13:19.956Z",
+        "updated_at": "2023-08-24T00:40:12.820Z",
+        "business_id": "main_entity_pk",
+        "product_id": "2800ea86-8497-4abd-be14-528821f01703"
+      },
+      {
+        "id": "0ab847a4-7d9b-42e8-9c93-efd9622b42a4",
+        "quantity": 18749,
+        "status": "Out of stock",
+        "created_at": "2023-08-24T01:43:54.674Z",
+        "updated_at": "2023-08-23T21:20:20.361Z",
+        "business_id": "main_entity_pk",
+        "product_id": "9175a4e3-f676-40c9-8d77-9f433354a2ff"
+      },
+      {
+        "id": "026ca2ba-dec3-4c7c-b5ea-2a1651e5f9a8",
+        "quantity": 23858,
+        "status": "Reserved",
+        "created_at": "2023-08-24T06:47:32.955Z",
+        "updated_at": "2023-08-23T17:50:41.645Z",
+        "business_id": "main_entity_pk",
+        "product_id": "2800ea86-8497-4abd-be14-528821f01703"
+      },
+      {
+        "id": "a2f6636f-dff1-4175-9d46-fb5ad9b2c40c",
+        "quantity": 85495,
+        "status": "Discontinued",
+        "created_at": "2023-08-23T17:29:50.834Z",
+        "updated_at": "2023-08-23T22:26:25.233Z",
+        "business_id": "main_entity_pk",
+        "product_id": "9175a4e3-f676-40c9-8d77-9f433354a2ff"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "785b5aa1-82ad-4637-8045-f03e5ea6872b",
+        "email": "Grover27@gmail.com",
+        "firstName": "Cora",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96383269",
+        "tenantId": null
+      },
+      {
+        "reference": "d9d592ff-48fc-4506-9989-3401ceb840fb",
+        "email": "Jonathan6@gmail.com",
+        "firstName": "Jonatan",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/244.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "737ff644-8310-47a3-8fee-d18bd3e3b510",
+        "email": "Evalyn76@yahoo.com",
+        "firstName": "Rodrick",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66381316",
+        "tenantId": null
+      },
+      {
+        "reference": "97b97698-2c14-4486-b1d0-36c285477f9a",
+        "email": "Verda25@hotmail.com",
+        "firstName": "Rowena",
+        "lastName": "Schuster",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56743477",
+        "tenantId": null
+      },
+      {
+        "reference": "41e948aa-c0a6-4c5f-9005-3fcdea7df108",
+        "email": "Rylan86@gmail.com",
+        "firstName": "Odie",
+        "lastName": "Hahn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28775377",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "product": [
+      {
+        "id": "e1527e9c-253d-4acd-a8b4-7c547353ed05",
+        "name": "Premium Leather Handbag",
+        "description": "Handcrafted using the finest leather",
+        "quantity": 13966,
+        "status": "Available",
+        "created_at": "2023-08-24T05:17:05.460Z",
+        "updated_at": "2023-08-24T10:32:33.535Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "119ba925-7525-4d95-8b10-d83cad2d48e1",
+        "name": "Organic Matcha Green Tea",
+        "description": "Rich in antioxidants and natural flavor",
+        "quantity": 9486,
+        "status": "Out of Stock",
+        "created_at": "2023-08-24T11:43:47.916Z",
+        "updated_at": "2023-08-23T14:21:10.427Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "0c509c79-144c-434a-8218-4f6c9192c4b1",
+        "name": "Wireless Bluetooth Earphones",
+        "description": "Immersive sound quality and comfortable fit",
+        "quantity": 40025,
+        "status": "Limited Edition",
+        "created_at": "2023-08-24T08:27:04.826Z",
+        "updated_at": "2023-08-24T10:04:34.318Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "945f3fc7-cc5a-477d-af1a-066e82493c4d",
+        "name": "Smart Home Security System",
+        "description": "Protect your home with advanced features",
+        "quantity": 51897,
+        "status": "Coming Soon",
+        "created_at": "2023-08-23T17:59:46.989Z",
+        "updated_at": "2023-08-23T17:39:03.339Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "30846e79-ff15-471d-a750-419dddc9f96b",
+        "name": "Natural Anti-Aging Face Cream",
+        "description": "Revitalize your skin with natural ingredients",
+        "quantity": 67126,
+        "status": "Pre-order Now",
+        "created_at": "2023-08-23T21:49:35.190Z",
+        "updated_at": "2023-08-23T20:26:32.146Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "9ed16e79-286f-4a23-8b70-f7fbc4c7f250",
+        "status": "In Progress",
+        "quantity": 99064,
+        "created_at": "2023-08-23T19:52:30.174Z",
+        "updated_at": "2023-08-24T07:27:25.492Z",
+        "business_id": "main_entity_pk",
+        "product_id": "30846e79-ff15-471d-a750-419dddc9f96b"
+      },
+      {
+        "id": "a0bc8f28-e98c-4d8d-a3c3-6906717bb7ce",
+        "status": "Delayed",
+        "quantity": 40000,
+        "created_at": "2023-08-24T05:18:03.211Z",
+        "updated_at": "2023-08-24T10:49:43.799Z",
+        "business_id": "main_entity_pk",
+        "product_id": "945f3fc7-cc5a-477d-af1a-066e82493c4d"
+      },
+      {
+        "id": "e771c69f-47c0-42f4-a5cb-07851f9e2605",
+        "status": "Completed",
+        "quantity": 7848,
+        "created_at": "2023-08-23T20:11:13.454Z",
+        "updated_at": "2023-08-24T00:08:49.596Z",
+        "business_id": "main_entity_pk",
+        "product_id": "e1527e9c-253d-4acd-a8b4-7c547353ed05"
+      },
+      {
+        "id": "c0c11f10-8713-4c46-a3d6-bf426b994273",
+        "status": "On Hold",
+        "quantity": 41341,
+        "created_at": "2023-08-24T11:10:34.482Z",
+        "updated_at": "2023-08-24T07:15:21.721Z",
+        "business_id": "main_entity_pk",
+        "product_id": "0c509c79-144c-434a-8218-4f6c9192c4b1"
+      },
+      {
+        "id": "004b7d44-c054-40bb-b7b3-2eea9d17ca4f",
+        "status": "Pending",
+        "quantity": 7457,
+        "created_at": "2023-08-23T23:59:18.723Z",
+        "updated_at": "2023-08-24T02:30:25.131Z",
+        "business_id": "main_entity_pk",
+        "product_id": "30846e79-ff15-471d-a750-419dddc9f96b"
+      }
+    ],
+    "order": [
+      {
+        "id": "3d012089-273e-428a-b062-bac20e9f5f75",
+        "status": "Processing",
+        "quantity": 84358,
+        "created_at": "2023-08-24T00:13:20.715Z",
+        "updated_at": "2023-08-24T09:39:21.600Z",
+        "product_id": "30846e79-ff15-471d-a750-419dddc9f96b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ba62239-d0e1-4a7c-9618-d615739e61fa",
+        "status": "Shipped",
+        "quantity": 30756,
+        "created_at": "2023-08-23T15:43:25.457Z",
+        "updated_at": "2023-08-24T01:13:24.734Z",
+        "product_id": "0c509c79-144c-434a-8218-4f6c9192c4b1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1dcee8b5-e081-44c7-ad00-e2b608c4a8a7",
+        "status": "Delivered",
+        "quantity": 6956,
+        "created_at": "2023-08-23T20:50:16.101Z",
+        "updated_at": "2023-08-23T23:03:42.681Z",
+        "product_id": "119ba925-7525-4d95-8b10-d83cad2d48e1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "557cbbd9-f05d-4cc0-87f3-cc54da3efd8f",
+        "status": "Cancelled",
+        "quantity": 29899,
+        "created_at": "2023-08-23T21:15:11.117Z",
+        "updated_at": "2023-08-24T05:20:25.584Z",
+        "product_id": "945f3fc7-cc5a-477d-af1a-066e82493c4d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb6fd862-9580-494c-8206-32639e30156d",
+        "status": "Refunded",
+        "quantity": 67295,
+        "created_at": "2023-08-24T01:41:49.044Z",
+        "updated_at": "2023-08-24T02:31:41.415Z",
+        "product_id": "119ba925-7525-4d95-8b10-d83cad2d48e1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "24820410-c5d0-4fc2-aafb-90943458633c",
+        "quantity": 71207,
+        "status": "In Stock",
+        "created_at": "2023-08-23T19:25:30.225Z",
+        "updated_at": "2023-08-24T07:37:07.139Z",
+        "business_id": "main_entity_pk",
+        "product_id": "e1527e9c-253d-4acd-a8b4-7c547353ed05"
+      },
+      {
+        "id": "a0481973-2930-4d0e-954a-d10fd15ac73a",
+        "quantity": 33146,
+        "status": "Low Stock",
+        "created_at": "2023-08-24T05:22:15.813Z",
+        "updated_at": "2023-08-23T15:20:58.597Z",
+        "business_id": "main_entity_pk",
+        "product_id": "30846e79-ff15-471d-a750-419dddc9f96b"
+      },
+      {
+        "id": "ab117920-25ad-4792-89da-f1ed93a09326",
+        "quantity": 87273,
+        "status": "Out of Stock",
+        "created_at": "2023-08-24T02:56:49.107Z",
+        "updated_at": "2023-08-24T07:47:00.892Z",
+        "business_id": "main_entity_pk",
+        "product_id": "0c509c79-144c-434a-8218-4f6c9192c4b1"
+      },
+      {
+        "id": "8da6a073-ffdf-4f8a-8866-1eed89e89888",
+        "quantity": 88417,
+        "status": "Reserved",
+        "created_at": "2023-08-24T10:56:29.163Z",
+        "updated_at": "2023-08-24T11:03:31.377Z",
+        "business_id": "main_entity_pk",
+        "product_id": "119ba925-7525-4d95-8b10-d83cad2d48e1"
+      },
+      {
+        "id": "2530c795-325f-4c50-8e80-24dc86204584",
+        "quantity": 78078,
+        "status": "Discontinued",
+        "created_at": "2023-08-24T01:53:59.032Z",
+        "updated_at": "2023-08-23T15:06:16.185Z",
+        "business_id": "main_entity_pk",
+        "product_id": "30846e79-ff15-471d-a750-419dddc9f96b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3f0523e4-409e-4cd6-80f0-928d58439d04",
+        "email": "Cecil.Shields28@yahoo.com",
+        "firstName": "Teresa",
+        "lastName": "Spencer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/117.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eb45e903-ba4e-4b3c-af13-1b855b31d76e",
+        "email": "Jeramy66@hotmail.com",
+        "firstName": "Enrico",
+        "lastName": "Hermann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26002156",
+        "tenantId": null
+      },
+      {
+        "reference": "9ff51298-45f4-4afa-8963-2fe057b16241",
+        "email": "Merl78@yahoo.com",
+        "firstName": "Julius",
+        "lastName": "Kutch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/967.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0840d37d-cdac-467d-9ade-780fd68947fb",
+        "email": "Wilbert36@hotmail.com",
+        "firstName": "Kira",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71517714",
+        "tenantId": null
+      },
+      {
+        "reference": "c85aa97d-8dd8-4800-acf0-2e4058096035",
+        "email": "Eleanora.Muller88@gmail.com",
+        "firstName": "Jaquelin",
+        "lastName": "Hane",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/476.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
